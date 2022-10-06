@@ -25,10 +25,10 @@ export interface ITableRow{
 export interface ITableRowForTopics{
     topic: ITopic,
     i: number,
-    setCourse: any //React.Dispatch<ICourse | undefined>
+    setCourse: any 
   }
 export interface IAuthPage{
-    setIsLogin: React.Dispatch<boolean>
+    setIsLogin: any
     isLogin: boolean
 }
 export interface IPage{
