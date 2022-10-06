@@ -1,0 +1,67 @@
+.imageWrapper{
+    height: 240px;
+    width: 900px;
+}
+.header{
+    font-size: 30px;
+    margin: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.courseInfoWrapper{
+    width: 1440px;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+
+}
+.generalInfoWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.generalInfo{
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.topics{
+    text-align: start;
+    margin-top: 15px;
+    font-weight: 600;
+    display: inline-block;
+}
+.tableHeader{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 5fr 350px 1fr;
+    height: 50px;
+    line-height: 50px;
+    width: 1440px;
+    box-shadow: 1px 1px 4px 1px rgba(91, 91, 91, 0.266);
+    font-weight: 700;
+    color:rgba(32, 32, 32, 0.929)
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    &:hover{
+        background-color: rgba(158, 197, 236, 0.234);
+        cursor: pointer
+    }
+    svg{
+        display: inline-block;
+        // margin: 10px;
+    }
+}
+.filterWrapper{
+    align-items: center;
+    margin: auto;
+    
+    span{
+        line-height: 50px;
+        height: 50px;
+        display: inline-block;
+       margin-top: 10px;
+    }
+}

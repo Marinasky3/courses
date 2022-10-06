@@ -1,0 +1,31 @@
+.homepageWrapper{
+    color:rgba(32, 32, 32, 0.929)
+}
+.pageHeader{
+    font-size: 24px;
+    margin: 20px;
+}
+.tableHeader{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+    height: 50px;
+    line-height: 50px;
+    width: 1440px;
+    box-shadow: 1px 1px 4px 1px rgba(91, 91, 91, 0.266);
+    font-weight: 700;
+    color:rgba(32, 32, 32, 0.929)
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    &:hover{
+        background-color: rgba(158, 197, 236, 0.234);
+        cursor: pointer
+    }
+    svg{
+        display: inline-block;
+        // margin: 10px;
+    }
+}

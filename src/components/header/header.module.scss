@@ -1,0 +1,17 @@
+.headerWrapper {
+    background: rgb(190, 214, 255);
+    height: 60px;
+}
+.headerContentWrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 10px 50px;
+    
+}
+.headerTitle{
+    font-size: 30px;
+
+}
